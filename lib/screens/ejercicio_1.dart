@@ -25,7 +25,16 @@ class Ejercicio1 extends StatelessWidget {
 
             const SizedBox(height: 20),
 
-            Text("data")
+            Text(
+              "https://github.com/dramcab717/PMDM_Daniel_Ramirez.git",
+              textAlign: TextAlign.center,
+              style: GoogleFonts.robotoMono(
+                fontSize: 17,
+                color: Colors.black54,
+                fontStyle: FontStyle.italic,
+              ),
+              )
+
           ],
         ),
       ),

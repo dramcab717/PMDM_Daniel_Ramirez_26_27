@@ -11,7 +11,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Practica 1",
+      title: "Practicas Flutter",
       home: Scaffold(
         appBar: AppBar( 
           title: const Text("Practica Flutter"),
