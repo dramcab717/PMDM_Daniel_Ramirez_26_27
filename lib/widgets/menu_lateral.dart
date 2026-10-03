@@ -64,7 +64,7 @@ class MenuLateral extends StatelessWidget{
             onTap: () {
               //Cierra el menú lateral
               Navigator.of(context).pop();
-              //Navega al Ejercicio 3
+              //Navega al Ejercicio 4
               Navigator.of(context).push(MaterialPageRoute(
                 builder: (BuildContext context) => const Ejercicio4()
             ));

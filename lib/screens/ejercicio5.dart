@@ -10,7 +10,7 @@ class Ejercicio5 extends StatelessWidget {
         title: const Text("5. Cinco Imágenes"),
       ),
       body: Center(
-        // Usamos Column para disponer la lista de imágenes en vertical
+        // Uso Column para disponer la lista de imágenes en vertical
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[

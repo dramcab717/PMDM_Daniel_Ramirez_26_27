@@ -12,7 +12,7 @@ class Ejercicio3 extends StatelessWidget {
       body: Center(
         // Usamos Column para poner los elementos en forma de columnas
         child: Column(
-          // spaceEvenly repartirá el espacio para que no salgan pegadas
+          // spaceEvenly reparte el espacio para que no salgan pegadas
           mainAxisAlignment: MainAxisAlignment.spaceEvenly, 
           children: <Widget>[
             

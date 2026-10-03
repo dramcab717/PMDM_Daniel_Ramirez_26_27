@@ -10,7 +10,7 @@ class Ejercicio4 extends StatelessWidget {
         title: const Text("4. Cinco Iconos"),
       ),
       body: Center(
-        // Usamos Row para disponer la lista de Widgets en forma de filas (horizontal)
+        // Uso Row para disponer la lista de Widgets en forma de filas (horizontal)
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround, 
           children: const <Widget>[
