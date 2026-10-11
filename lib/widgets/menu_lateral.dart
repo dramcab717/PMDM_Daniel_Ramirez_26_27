@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
-import '../screens/ejercicio_1.dart';
+import '../screens/ejercicio1.dart';
 import '../screens/ejercicio2.dart';
 import '../screens/ejercicio3.dart';
 import '../screens/ejercicio4.dart';
 import '../screens/ejercicio5.dart';
+import '../screens/ejercicio6.dart';
+import '../screens/ejercicio7.dart';
+import '../screens/ejercicio8.dart';
+import '../screens/ejercicio9.dart';
+
 
 class MenuLateral extends StatelessWidget{
   const MenuLateral({super.key});
@@ -16,7 +21,7 @@ class MenuLateral extends StatelessWidget{
           //Cabecera del menu
           const UserAccountsDrawerHeader(
             accountName: Text("Daniel Ramírez"), 
-            accountEmail: Text("rcdaniel@gmail.com"),
+            accountEmail: Text("rcdaniel2006@gmail.com"),
             decoration: BoxDecoration(
               color: Colors.blue,
             ),
@@ -79,6 +84,54 @@ class MenuLateral extends StatelessWidget{
               //Navega al Ejercicio 5
               Navigator.of(context).push(MaterialPageRoute(
                 builder: (BuildContext context) => const Ejercicio5()
+            ));
+            },
+          ),
+
+          ListTile(
+            title: const Text("Ejercicio 6"),
+            onTap: () {
+              //Cierra el menú lateral
+              Navigator.of(context).pop();
+              //Navega al Ejercicio 6
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (BuildContext context) => const Ejercicio6()
+            ));
+            },
+          ),
+
+          ListTile(
+            title: const Text("Ejercicio 7"),
+            onTap: () {
+              //Cierra el menú lateral
+              Navigator.of(context).pop();
+              //Navega al Ejercicio 7
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (BuildContext context) => const Ejercicio7()
+            ));
+            },
+          ),
+
+          ListTile(
+            title: const Text("Ejercicio 8"),
+            onTap: () {
+              //Cierra el menú lateral
+              Navigator.of(context).pop();
+              //Navega al Ejercicio 8
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (BuildContext context) => const Ejercicio8()
+            ));
+            },
+          ),
+
+          ListTile(
+            title: const Text("Ejercicio 9"),
+            onTap: () {
+              //Cierra el menú lateral
+              Navigator.of(context).pop();
+              //Navega al Ejercicio 9
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (BuildContext context) => const Ejercicio9()
             ));
             },
           ),

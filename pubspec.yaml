@@ -7,6 +7,7 @@ environment:
   sdk: ^3.13.4
 
 dependencies:
+  auto_size_text: ^3.0.0
   flutter:
     sdk: flutter
   google_fonts: ^9.0.0
@@ -29,3 +30,6 @@ flutter:
     - assets/images/foto3-ejercicio5.jpg
     - assets/images/foto4-ejercicio5.jpg
     - assets/images/foto5-ejercicio5.jpg
+    - assets/images/foto1-ejercicio8.png
+    - assets/images/foto2-ejercicio8.png
+    - assets/images/foto3-ejercicio8.png
