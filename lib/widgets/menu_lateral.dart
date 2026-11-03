@@ -8,6 +8,8 @@ import '../screens/ejercicio6.dart';
 import '../screens/ejercicio7.dart';
 import '../screens/ejercicio8.dart';
 import '../screens/ejercicio9.dart';
+import '../screens/ejercicio10.dart';
+import '../screens/ejercicio11.dart';
 
 
 class MenuLateral extends StatelessWidget{
@@ -132,6 +134,30 @@ class MenuLateral extends StatelessWidget{
               //Navega al Ejercicio 9
               Navigator.of(context).push(MaterialPageRoute(
                 builder: (BuildContext context) => const Ejercicio9()
+            ));
+            },
+          ),
+
+          ListTile(
+            title: const Text("Ejercicio 10"),
+            onTap: () {
+              //Cierra el menú lateral
+              Navigator.of(context).pop();
+              //Navega al Ejercicio 10
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (BuildContext context) => const Ejercicio10()
+            ));
+            },
+          ),
+
+          ListTile(
+            title: const Text("Ejercicio 11"),
+            onTap: () {
+              //Cierra el menú lateral
+              Navigator.of(context).pop();
+              //Navega al Ejercicio 11
+              Navigator.of(context).push(MaterialPageRoute(
+                builder: (BuildContext context) => Ejercicio11()
             ));
             },
           ),
